@@ -1,0 +1,219 @@
+ul {
+  font-family: 'Lato', sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  font-size: 17px;
+}
+
+li > a:hover {
+  color: #2c528c;
+}
+
+li {
+  float: right;
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: #2c528c;
+  text-align: center;
+  padding: 25px 30px;
+  text-decoration: none;
+  white-space: nowrap;
+  right: 0;
+  left: auto;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #2c528c;
+  color: white;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content,
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #2c528c;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.dropdown-content a:hover {
+  background-color: #3d72c2;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: #0099cc;
+}
+
+.dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+.logo-image {
+  height: 66px;
+  width: 66px;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  z-index: 1;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('./Assets/people.jpg');
+  height: 85%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  border: none;
+  color: white;
+  padding: 50px 70px;
+  font-size: 16px;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  width: 80%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-family: 'Lato', sans-serif;
+}
+
+.hero-text button {
+  background-color: #2c528c;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.4s;
+  z-index: 1;
+}
+
+.hero-text button:hover {
+  background-color: white;
+  color: #2c528c;
+}
+
+.button {
+  background-color: #2c528c;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.button3 {
+  background-color: #c93b3b;
+  color: white;
+}
+
+.button3:hover {
+  background-color: white;
+  color: #2c528c;
+}
+
+.button4 {
+  background-color: #f9f9f9;
+  color: #2c528c;
+}
+
+.button4:hover {
+  background-color: #f9f9f9;
+  color: #c93b3b;
+}
+
+.main-text {
+  width: 70%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 50px;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  color: #36454f;
+}
+
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 0.05rem solid #e5e5e5;
+}
+
+a {
+  color: #c93b3b;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+#customers {
+  font-family: 'Lato', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#customers tr:hover {
+  background-color: #3d72c2;
+  color: white;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #c93b3b;
+  color: white;
+}

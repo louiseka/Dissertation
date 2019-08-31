@@ -100,9 +100,7 @@ html {
   padding: 50px 70px;
   font-size: 16px;
   position: absolute;
-  top: 40%;
-  left: 10%;
-  width: 80%;
+ 
   color: white;
   background-color: rgba(0, 0, 0, 0.3);
   font-family: 'Lato', sans-serif;
